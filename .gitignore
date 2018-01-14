@@ -1,0 +1,4 @@
+*_models/
+*.hdf5
+*.csv
+*.txt
