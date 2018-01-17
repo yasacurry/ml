@@ -2,6 +2,7 @@
 機械学習の練習
 
 ## usage
-- or  
-ORゲートの学習
-
+- logistic_regression_or/  
+ロジスティック回帰でORゲートの学習
+- categoly_plot/  
+多クラス分類
