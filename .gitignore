@@ -1,3 +1,4 @@
+mldata/
 *_models/
 *.hdf5
 *.csv

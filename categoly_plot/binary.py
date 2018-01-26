@@ -34,10 +34,10 @@ def f(x, d, c1, c2):
 
 
 xmin, xmax = min(x[:, 0]), max(x[:, 0])
-xs = np.linspace(xmin, xmax, 100)
+xp = np.linspace(xmin, xmax, 100)
 d = model.layers[0].get_weights()
 
-y = [f(x, d, 0, 1) for x in xs]
-plt.plot(xs, y, 'r')
+yp = [f(x, d, 0, 1) for x in xp]
+plt.plot(xp, yp, 'r')
 
 plt.show()
